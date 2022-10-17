@@ -21,9 +21,10 @@ db = SQL("sqlite:///mbtify.db")
 app.secret_key = os.urandom(24)
 
 API_BASE = 'https://accounts.spotify.com'
-CLI_ID = "b54dab567a874777b42cfc510c468fdc"
-CLI_SEC = "02c4e6038b5f479f9ce810615ed4aa08"
-REDIRECT_URI= "https://omelias-code50-106240728-q75q7jvp5244jg-5000.githubpreview.dev/logged"
+# Provide unique client_id, client_secret and redirect_uri.
+CLI_ID = "client_id"
+CLI_SEC = "client_secret" 
+REDIRECT_URI= "redirect_uri"
 SCOPE = 'user-library-read'
 position = 0
 LOGIN = False
