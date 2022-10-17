@@ -1,0 +1,50 @@
+{% extends "layout.html" %}
+
+{% block main %}
+
+    <div class="logged">
+        <form action="" method="POST" id="mbtiform">
+        <div class="choose">
+            <p>Choose an MBTI type.</p>
+            <div class="select-container">
+            <select id="mbtitype">
+                <option selected disabled>-</option>
+                <option value="intj">INTJ</option>
+                <option value="intp">INTP</option>
+                <option value="entj">ENTJ</option>
+                <option value="entp">ENTP</option>
+                <option value="infj">INFJ</option>
+                <option value="infp">INFP</option>
+                <option value="enfj">ENFJ</option>
+                <option value="enfp">ENFP</option>
+                <option value="istj">ISTJ</option>
+                <option value="isfj">ISFJ</option>
+                <option value="estj">ESTJ</option>
+                <option value="esfj">ESFJ</option>
+                <option value="istp">ISTP</option>
+                <option value="isfp">ISFP</option>
+                <option value="estp">ESTP</option>
+                <option value="esfp">ESFP</option>
+            </select>
+            </div>
+
+            <div class="nextbutton-container">
+                <input type="submit" value="Next" class="nextbutton">
+            </div>
+        </div>
+
+        </form>
+
+        <script type="text/javascript">
+
+        // Change the action according to option values.
+        document.getElementById('mbtiform').mbtitype.onchange = function() {
+            var newaction = this.value;
+            document.getElementById('mbtiform').action = newaction;
+        };
+
+        </script>
+      
+    </div>
+
+{% endblock %}
