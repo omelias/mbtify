@@ -1,0 +1,16 @@
+{% extends "layout1.html" %}
+
+{% block main %}
+<div class="mbti">ESTP</div>
+
+{% for result in estp_results %}
+
+<div class="resultdiv">
+    <div class="album_cover"><img src="{{result.album_cover}}" width="320" height="320"/></div>
+    <div class="trackname">{{result.track_name}}</div>
+    <div class="artistname">{{result.artist_name}}</div>
+</div>
+
+{% endfor %}
+
+{% endblock %}
