@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block main %}
+
+<main class="index">
+    <div class="appname">Mbtify</div>
+    <div class="intro">See how your music taste matches with your personality!</div>
+    <form action="/auth" method="post">
+        <div class="login-button-container">
+            <button class="loginbutton" id="myButton">Login with Spotify</button>
+        </div>
+    </form>
+</main>
+
+
+{% endblock %}
