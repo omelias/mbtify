@@ -1,0 +1,313 @@
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+.index {
+  font-family: Helvetica, Arial, sans-serif;
+  position:fixed;
+  padding:0;
+  margin:0;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(131deg, #ad5ed9, #5d84e2, #ad5ed9, #e1d577);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 59s ease infinite;
+  -moz-animation: AnimationName 59s ease infinite;
+  animation: AnimationName 59s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:2% 0%}
+  50%{background-position:99% 100%}
+  100%{background-position:2% 0%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:2% 0%}
+  50%{background-position:99% 100%}
+  100%{background-position:2% 0%}
+}
+@keyframes AnimationName {
+  0%{background-position:2% 0%}
+  50%{background-position:99% 100%}
+  100%{background-position:2% 0%}
+}
+
+.appname {
+  font-size: 100px;
+  padding-top: 3%;
+  padding-left: 5%;
+}
+
+.intro {
+  font-size: 25px;
+  padding-left: 5%;
+}
+
+.login-button-container {
+  text-align: center;
+  padding-top: 150px;
+}
+
+.loginbutton {
+  display: inline-block;
+  background-color: #1ed760;
+  color: black;
+  border: none;
+  width: auto;
+  border-radius: 500px;
+  padding: 16px 40px;
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: 660;
+  transition: .2s ease-in-out 0s;
+}
+
+.loginbutton:hover {
+  transform: scale(1.02);
+}
+
+footer {
+  padding-top: 15px;
+  margin-bottom: 5px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+}
+
+.footer-items {
+  color: #dedede;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.footer-items:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.footer-item-seperator {
+  padding-right: 1.2%;
+  padding-left: 1.2%;
+  color: #dedede;
+  display: inline-block;
+}
+
+/* Style all font awesome icons */
+.fa {
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  }
+
+.fa:hover {
+  color: white;
+}
+
+.fa-facebook {
+  color: #dedede;
+}
+
+.fa-twitter {
+  color: #dedede;
+}
+
+.fa-github {
+  color: #dedede;
+}
+
+.fa-instagram {
+  color: #dedede;
+}
+
+.fa-linkedin {
+  color: #dedede;
+}
+
+.fa-envelope {
+  color: #dedede;
+}
+
+.copyright {
+  color: #dedede;
+  padding-top: 0.8%;
+  padding-bottom: 0.8%;
+  font-size: 15px;
+}
+
+.layout-background {
+  overflow-y: hidden;
+  font-family: Helvetica, Arial, sans-serif;
+  padding:0;
+  margin:0;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background: rgb(187,108,235);
+  background: linear-gradient(132deg, rgba(187,108,235,1) 0%, rgba(225,213,119,1) 90%);
+}
+
+.logged {
+  font-family: Helvetica, Arial, sans-serif;
+  position:fixed;
+  padding:0;
+  margin:0;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background: rgb(48,97,175);
+  background: linear-gradient(132deg, rgba(48,97,175,1) 0%, rgba(118,53,199,1) 49%, rgba(177,52,190,1) 100%);
+}
+
+.choose {
+  display: inline-block;
+  text-align: center;
+  margin-top: 15%;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 50px;
+  color: white;
+  display: block;
+}
+
+.select-container {
+  display: block;
+  margin: 0 auto;
+}
+
+select {
+  width: 25vmax;
+  height: 5vmax;
+  border-radius: 500px;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  text-align: center;
+  -webkit-appearance: none;
+  background-position-x: 70%;
+  background-color: purple;
+  opacity: 60%;
+  background-image: url(https://cdn.glitch.com/00ce2f77-f5e0-4b03-801c-6c6e419e31f4%2Fgalon-hacia-abajo.svg?v=1596990832684), linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
+  background-repeat: no-repeat;
+  background-position: right 0.7em top 50%, 0 0;
+  background-size: 0.65em auto, 100%;
+}
+
+.nextbutton-container {
+  text-align: center;
+  margin-top: 3%;
+}
+
+.nextbutton {
+  display: inline-block;
+  background-color: #1ed760;
+  color: #000;
+  border: none;
+  width: auto;
+  height: 50px;
+  border-radius: 500px;
+  padding: 12px 40px;
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: 660;
+  transition: .2s ease-in-out 0s;
+}
+
+.nextbutton:hover {
+  transform: scale(1.02);
+}
+
+.tologged {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 10%;
+  font-size: 500%;
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+  cursor: pointer;
+}
+
+.tologged:hover {
+  color: #1ed760;
+  transition: .3s ease-in-out 0s;
+}
+
+.mbti {
+  margin-top: 2%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  font-size: 300%;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+.resultdiv {
+  transition: .3s ease-in-out 0s;
+}
+
+.resultdiv:hover {
+  transform: scale(1.02);
+}
+
+.album_cover {
+  margin-left: 10%;
+}
+
+.trackname {
+  font-size: 200%;
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+  margin-left: 38%;
+  position: relative; top: -190px;
+}
+
+.artistname {
+  font-size: 120%;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #ededed;
+  margin-left: 38%;
+  position: relative; top: -180px;
+}
+
+.footer1 {
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right:5%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+}
+
+.footer1-items {
+  color: #dedede;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.footer1-items:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.footer1-item-seperator {
+  padding-right: 1.2%;
+  padding-left: 1.2%;
+  color: #dedede;
+  display: inline-block;
+}
+
+/* Hide the scrollbar */
+::-webkit-scrollbar {
+  width: 0px;
+}
