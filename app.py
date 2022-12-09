@@ -259,3 +259,12 @@ for track in results2["items"]:
     # Insert users' track information into audio table
     db.execute("INSERT INTO audio (danceability, energy, speechiness, acousticness, valence, tempo, track_name, artist_name, genre, album_cover) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
                 features['danceability'], features['energy'], features['speechiness'], features['acousticness'], features['valence'], features['tempo'], track_name, artist_name, genre, album_cover)
+    
+
+# Delete all user information from database after five minutes
+def delete_data():
+    time.sleep(300)
+    db.execute("DELETE FROM audio")
+
+thread = threading.Thread(target=delete_data)
+thread.start()
