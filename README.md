@@ -1,5 +1,5 @@
 # MBTIFY
-#### Description: A Spotify API powered, MBTI related website for the Final Project of CS50's Introduction to Computer Science. Users log in with their Spotify account to see 5 of their songs, as they match with a selected MBTI type.
+#### Description: A Spotify API powered, MBTI related website for the Final Project of CS50's Introduction to Computer Science. Users log in with their Spotify account to see 5 of their songs as they match with a selected MBTI type.
 
 ‎
 ‎
